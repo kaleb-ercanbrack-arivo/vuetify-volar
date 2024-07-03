@@ -1,0 +1,28 @@
+{
+  "name": "vuetify-volar",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force"
+  },
+  "dependencies": {
+    "vue": "^3.4.31",
+    "vuetify": "^3.6.11"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.9",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all2": "^6.2.1",
+    "typescript": "~5.5.3",
+    "vite": "^5.3.3",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-tsc": "^2.0.24"
+  }
+}
